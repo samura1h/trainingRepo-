@@ -1,2 +1,2 @@
 ![Workflow Status]
-(https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/main.yml/badge.svg)
+(https://github.com/samura1h/trainingRepo-/actions/workflows/main.yml/badge.svg)
