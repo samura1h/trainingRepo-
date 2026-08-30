@@ -26,6 +26,3 @@ jobs:
           echo "Doing some work..."
           sleep 2
           echo "Work done!"
-
-      - name: Force failure
-        run: exit 1
