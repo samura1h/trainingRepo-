@@ -1,0 +1,31 @@
+name: Robot Workflow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say hello
+        run: echo "Hello from the robot! 🤖"
+
+      - name: Show repo files
+        run: ls -la
+
+      - name: Show current date
+        run: date
+
+      - name: Simulate a task
+        run: |
+          echo "Doing some work..."
+          sleep 2
+          echo "Work done!"
+
+      - name: Force failure
+        run: exit 1
